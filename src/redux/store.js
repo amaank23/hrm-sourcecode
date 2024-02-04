@@ -7,7 +7,6 @@ const store = configureStore({
     serialData({
       serializableCheck: false,
     }),
-  // non serial data issue fixed
   reducer: rootSlices,
 });
 
