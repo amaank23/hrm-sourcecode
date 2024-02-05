@@ -1,6 +1,9 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
+import authSlice from "./slices/Auth/authSlice";
 
-const rootSlices = combineReducers({});
+const rootSlices = combineReducers({
+  auth: authSlice
+});
 
 const store = configureStore({
   middleware: (serialData) =>

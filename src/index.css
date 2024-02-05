@@ -8,10 +8,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h5 {
+h1, h2, h3, h4, h5, h5{
     font-family: 'Kanit', sans-serif;
 }
 
 p, span, input, textarea, button {
     font-family: 'Inter', sans-serif;
+}
+.ant-menu .ant-menu-submenu-title {
+    color: #fff !important;
+}
+.ant-menu-inline-collapsed .ant-menu-submenu-title {
+    color: red !important;
+}
+.side-menu-main * {
+    font-family: 'Kanit', sans-serif !important;
+    font-weight: 500 !important;
 }
